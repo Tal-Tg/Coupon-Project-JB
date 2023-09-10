@@ -1,0 +1,74 @@
+.Layout{
+    /* height: 100%; */
+    /* box-sizing: border-box;  */
+    display: grid;
+    grid-template-rows: 4.5rem 100% 0% ;
+    grid-template-columns: repeat(6,1fr);/* fr = Fraction*/
+}
+
+.Layout > header, .Layout > footer{
+    grid-column: span 7;
+}
+
+.Layout > header{
+    /* background-color: #053742; */
+    color:white
+}
+
+.Layout > footer{
+    background-color: p;
+}
+
+.Layout > main, .Layout > aside{
+    /* background-color: #39A2DB; */
+    color: black;
+}
+.Layout > main {
+    grid-column: span 5;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items:center;
+    border: 0.5px solid black;
+}
+
+ /* .Layout,.Layout > *{
+   
+}  */
+
+
+.active5{
+    color:white;
+    font-weight:800;
+    
+} 
+
+.normal5{
+    
+    justify-self:start;
+    cursor:pointer;
+    text-decoration:none;
+    font-size:1.2rem;
+    display:flex;
+    align-items:center;
+    
+    font-weight:500;
+    color:black;
+}
+
+.normal5:hover{
+    
+    justify-self:start;
+    cursor:pointer;
+    text-decoration:none;
+    font-size:1.2rem;
+    display:flex;
+    align-items:center;
+    background-color:#394a51;
+    font-weight:500;
+    color:white;
+    
+}

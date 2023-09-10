@@ -1,0 +1,220 @@
+.AuthMenu {
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    width: 78vw;
+    margin-left:5px;
+}
+
+.lala{
+    
+    display: flex;
+}
+
+.userLogin{
+    
+    
+    
+    color:white;
+    font-size:110%;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: left;
+    
+}
+
+.userDetails{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+
+
+
+.menuLen{
+    color:white;
+    cursor:pointer;
+    top:22px;
+    position: absolute;
+    border: 0px solid rgb(255, 255, 255);
+}
+
+.menuLen:hover{
+    /* background-color: #394a51; */
+    border: 0px solid rgb(230, 230, 230);
+   
+    color:white;
+    border-radius: 1%;
+
+    
+    
+}
+
+
+.userGust{
+    font-weight: 600;
+    text-align: left;
+   
+    
+    
+}
+
+.normal4 {
+    font-weight: 600;
+    padding:0%;
+    
+    
+    color:white;
+    /* font-size:120%; */
+    padding-left: 1%;
+    padding-right: 1%;
+    text-decoration: none;
+    
+}
+
+.normal4:hover {
+    /* background-color:#394a51; */
+    padding-top: 2.5vw;
+    padding-right: 1%;
+    padding-bottom: 1.4%;
+    padding-left: 1%;
+    border: 0px solid rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+.normal1{
+    font-weight: 600;
+    background-color:rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 50%;
+    color: rgb(255, 255, 255);
+    
+    text-decoration: none;
+    text-align: left;
+}
+
+.normal2{
+    font-weight: 600;
+    padding:1%;
+    font-size:120%;
+    
+    
+    color:white;
+    
+    
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.normal3{
+    font-weight: 600;
+    padding:0%;
+   
+    padding-top: 2vw;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    padding-bottom: 0vw;
+    
+    color:white;
+    
+    font-size:120%;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+
+
+.normal2:hover{
+    /* background-color:#394a51; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+    border: 0px solid rgb(0, 0, 0);
+    color:white;
+    
+}
+
+.normal3:hover{
+    /* background-color:#394a51; */
+   
+    padding-top: 2vw;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    
+    padding-bottom: 1.8vw;
+    border: 0px solid rgb(0, 0, 0);
+    color:white;
+    
+}
+
+.active3{
+    /* background-color: #394a51; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:rgb(255, 255, 255);
+}
+.active2 {
+    font-weight: 600;
+    /* background-color: #394a51; */
+    border-radius: 5px;
+    padding: 0.4%;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.active2 {
+    font-weight: 600;
+    background-color: tan;
+    border-radius: 5px;
+    padding: 0.4%;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+} */
+
+/* .normal3{
+    font-weight: 600;
+    background-color:tan;
+    padding: 4px;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 22px;
+    text-decoration: none;
+} */
+
+
+.activeBottom{
+background-color: white;
+}
+
+.active {
+    font-weight: 600;
+    
+    border-radius: 5px;
+    color: #394a51;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+
+
+.btn-login{
+    background-color:black;
+    font-weight: 600;
+    font-size: 120%;
+    cursor:pointer;
+    border: 0px solid rgb(0, 0, 0);
+    color:white;
+}
+
+
+.btn-login:hover{
+    /* background-color:#394a51; */
+    border: 0px solid rgb(0, 0, 0);
+    color:white;
+    
+}
